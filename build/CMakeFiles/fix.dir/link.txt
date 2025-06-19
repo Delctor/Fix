@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/fix.dir/src/main.cpp.o CMakeFiles/fix.dir/src/Fix.cpp.o -o fix   -L/home/sebastian/libs/IntelRDFPMathLib20U2/LIBRARY  -Wl,-rpath,/home/sebastian/libs/IntelRDFPMathLib20U2/LIBRARY -lbid 

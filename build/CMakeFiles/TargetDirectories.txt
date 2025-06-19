@@ -1,3 +1,0 @@
-/home/sebastian/projects/cpp/fix/build/CMakeFiles/fix.dir
-/home/sebastian/projects/cpp/fix/build/CMakeFiles/edit_cache.dir
-/home/sebastian/projects/cpp/fix/build/CMakeFiles/rebuild_cache.dir
