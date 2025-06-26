@@ -7,15 +7,19 @@
 #include "./body/Body.h"
 #include "./header/Header.h"
 #include "./trailer/Trailer.h"
+#include "error.h"
 
 namespace fix
 {
+
+    typedef uint64_t ERROR;
+
     class Parser;
 
     class FixMsg
     {
     public:
-        FixMsg() : header(), body(nullptr), trailer() {}
+        FixMsg() : header(), body(nullptr), trailer(), error() {}
 
         ~FixMsg() { delete body; }
 
@@ -29,6 +33,7 @@ namespace fix
         Header header;
         Body* body;
         Trailer trailer;
+        std::optional<ERROR> error;
 
         friend class Parser;
     };

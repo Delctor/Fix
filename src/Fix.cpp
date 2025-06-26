@@ -427,24 +427,4 @@ namespace fix
 		this->sendBufferSize = newMsgSize;
 	}
 
-	void Fix::reciveMessage()
-	{
-		/*
-		int result = recv(this->sock, this->recvBuffer, this->recvBufferSizeReserved, NULL);
-
-		if (result > 0)
-		{
-
-		}
-		else if (result == 0)
-		{
-			std::cerr << "Connection closed" << std::endl;
-		}
-		else
-		{
-			std::cerr << "recv failed: %d\n" << WSAGetLastError() << std::endl;
-		}
-		*/
-	}
-
 };

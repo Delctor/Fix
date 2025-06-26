@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <cstdint>
 #include <optional>
 #include "Body.h"
 #include "../utils/BID_UINT64_WRAPPER.h"

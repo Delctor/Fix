@@ -107,9 +107,9 @@ namespace fix
 
 		void resetCheckSumAndSize();
 
-		inline void sendMessage();
+		void sendMessage();
 
-		inline void reciveMessage();
+		void read();
 
 		std::string url, port, senderCompID, targetCompID, account;
 		//SOCKET sock;

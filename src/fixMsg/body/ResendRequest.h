@@ -17,7 +17,7 @@ namespace fix
     private:
         size_t beginSeqNo; // 7
         size_t endSeqNo;   // 16
-
+        
         friend class Parser;
     };
 }
